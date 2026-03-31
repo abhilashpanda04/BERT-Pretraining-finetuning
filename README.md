@@ -1,47 +1,49 @@
-#Train BERT From Scratch
----------------------
+# Train BERT From Scratch
 
-This Jupyter Notebook demonstrates how to pretrain and finetune a BERT
-(Bidirectional Encoder Representations from Transformers) model using the
-keras—nlp library and TensorFlow.
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![TensorFlow](https://img.shields.io/badge/framework-TensorFlow-orange)](https://www.tensorflow.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-#Overview
----------
+Pretrain and fine-tune BERT from scratch on WikiText and SST2 datasets for sentiment analysis and text classification.
 
-The notebook covers the following steps:
-1. Loading the data from the WikiText dataset.
-2. Pretraining the BERT model on the WikiText dataset.
-3. Loading the SST2 (Stanford Sentiment Treebank) dataset from the
-Hugging Face Datasets library.
-4. Finetuning the pretrained BERT model on the SST2 dataset for sentiment
-5. Saving the trained model locally along with the tokenizer.
+## Overview
 
-#Prerequisites
---------------
+This notebook demonstrates how to pretrain and finetune a **BERT** model using Keras-NLP and TensorFlow. It covers the complete workflow from data preparation to model deployment.
 
-Before running the notebook, make sure you have the following
-dependencies installed:
+## Features
 
-1. keras—nlp
-2. TensorFlow
-3. Hugging Face Datasets library
+- BERT Pretraining on WikiText dataset
+- Fine-tuning for sentiment analysis (SST2)
+- TensorFlow & Keras-NLP framework
+- Model persistence (save and load)
+- Comprehensive evaluation metrics
 
-#Usage
-------
+## Requirements
 
-1. Clone this repository.
-2. Install the required dependencies.
-3. Open the Jupyter Notebook ipynb in a Jupyter Notebook environment.
-4. Follow the step-by-step instructions in the notebook to preprocess the
-data, pretrain the BERT model, load the SST2 dataset, finetune the model,
-and save the trained model with the tokenizer.
-5. Once the model is saved it can be used for inference on raw text.
+- Python 3.8+
+- TensorFlow >= 2.10
+- Keras-NLP
+- Hugging Face Datasets
 
-#Resources
-----------
-• WikiText dataset
-• SST2 dataset
+## Installation
 
-Feel free to explore the notebook and adapt it to your own use case!
-If you have any questions or encounter any issues, please let me know.
-I hope this helps! Let me know if you need any further assistance.
+```bash
+pip install tensorflow keras-nlp huggingface_hub datasets numpy pandas
+```
+
+## Usage
+
+1. Open the Jupyter Notebook
+2. Execute cells sequentially
+3. Train BERT model from scratch
+4. Fine-tune on sentiment analysis task
+
+## License
+
+MIT License
+
+## Author
+
+Abhilash Kumar Panda
+- Email: abhilashk.isme1517@gmail.com
+- LinkedIn: https://www.linkedin.com/in/abhilash-kumar-panda/
